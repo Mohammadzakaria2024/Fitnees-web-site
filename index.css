@@ -326,6 +326,27 @@ nav{
    
   }
 
+  .foder{
+    background-color: rgba(144, 143, 143, 0.214);
+    width: 1060px;
+    display: flex;
+    border-radius: 20px;
+    margin: auto;
+    text-align: start;
+   padding: 30px;
+   justify-content: space-between;
+   margin-top: 50px;
+   font-family: inter;
+   border-bottom: 1px solid white;
+  
+
+  }
+  .Fitness{
+
+    color: #e86b57;
+    font-size: 60px;
+  }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 576px) {
 
@@ -336,9 +357,9 @@ nav{
 
     .hember{
 
-        display: block;
-        background-color: #e86b57;
-    }
+      display: inline-block;
+      background-color: antiquewhite;
+  }
 .banner{
 
     flex-direction: column;
@@ -398,6 +419,15 @@ align-self: center;
 
 
 
+}
+
+.foder{
+
+  flex-direction: column;
+  width: 300px;
+  padding-bottom: 500px;
+  position: absolute;
+  margin-right: -700px;
 }
 
 /* Large devices (desktops, 992px and up) */
