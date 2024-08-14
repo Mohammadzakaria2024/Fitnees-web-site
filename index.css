@@ -223,21 +223,28 @@ nav{
   
 
   .BMICalculator{
-    display: flex;
+    
     width: 100%;
-    justify-content: space-between;
-    text-align: start;
+    
     background-color: rgba(104, 101, 101, 0.214);
+  
+
+
+  }
+  .BMICalculator1{
+
     padding: 30px;
     margin: auto;
     padding: 40px;
     font-family: Inter;
     margin-top: 80px;
     margin-bottom: 80px;
-
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    width: 1060;
 
   }
-
   .table{
     
     text-align: start;
@@ -253,6 +260,25 @@ nav{
     border: 0.5px solid rgba(188, 179, 179, 0.445);
     padding: 20px;
     font-size: small;
+
+  }
+
+  .Calculate{
+
+    background-color: rgba(144, 143, 143, 0.214);
+    border-radius: 5px;
+    padding: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  }
+
+  .Calculatebutton{
+     background-color: #e86b57;
+     border-radius: 10px;
+     font-weight: 600;
+     width: 100px;
+     padding: 5px;
+
 
   }
 
@@ -313,7 +339,12 @@ align-self: center;
 .Run img{
     margin-top: 50px;
 }
+.BMICalculator{
 
+    flex-direction: column;
+    width: 394px;
+
+}
 
 }
 
