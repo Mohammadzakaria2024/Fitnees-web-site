@@ -224,9 +224,11 @@ nav{
 
   .BMICalculator{
     
-    width: 100%;
+    width: 1060px;
     
     background-color: rgba(104, 101, 101, 0.214);
+    border-radius: 20px;
+    margin: auto;
   
 
 
@@ -277,9 +279,51 @@ nav{
      border-radius: 10px;
      font-weight: 600;
      width: 100px;
-     padding: 5px;
+     padding: 10px;
 
 
+  }
+
+  .Meet{
+    margin: auto;
+    background-color: rgba(144, 143, 143, 0.214);
+    border-radius: 20px;
+    width: 1060px;
+    height: 604px;
+    align-items: start;
+    display: flex;
+
+  }
+
+  .Team{
+
+    width: 326px;
+    height: 272px;
+    border-radius: 10px;
+  
+    
+  }
+  .Team img {
+    border-radius: 15px;
+  
+    margin-top: 30px;
+    width: 280px;
+    height: 260px;
+   
+    
+  }
+
+  .imgfont{
+
+    line-height: 10px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -70px;
+    
+  }
+
+  .Team1{
+   
   }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -345,6 +389,14 @@ align-self: center;
     width: 394px;
 
 }
+.Meet{
+  flex-direction: column;
+  width: 300px;
+}
+
+.Team img {
+
+
 
 }
 
