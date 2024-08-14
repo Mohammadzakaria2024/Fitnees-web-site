@@ -332,20 +332,45 @@ nav{
     display: flex;
     border-radius: 20px;
     margin: auto;
+    justify-content: space-between;
     text-align: start;
-   padding: 30px;
-   justify-content: space-between;
-   margin-top: 50px;
-   font-family: inter;
-   border-bottom: 1px solid white;
+    padding: 30px;
+    margin-top: 50px;
+    font-family: inter;
+    display: flex;
   
 
+  }
+
+  .foder1{
+
+  
+    
+   
   }
   .Fitness{
 
     color: #e86b57;
     font-size: 60px;
   }
+  .marque{
+    width: 1060px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: rgba(144, 143, 143, 0.214);
+    padding: 10px;
+
+}
+.marque button{
+    color: #FFF;
+    font-size: 20px;
+    width: 1060px;
+    border: 10px soled tomato;
+    border-radius: 10px;
+    background-color: rgba(144, 143, 143, 0.214);
+    padding: 10px;
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 576px) {
@@ -425,9 +450,11 @@ align-self: center;
 
   flex-direction: column;
   width: 300px;
-  padding-bottom: 500px;
   position: absolute;
-  margin-right: -700px;
+  padding-bottom: 500px;
+  padding-bottom: 600px;
+
+  
 }
 
 /* Large devices (desktops, 992px and up) */
